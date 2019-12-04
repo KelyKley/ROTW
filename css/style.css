@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap');
+*{
+    font-family: 'Red Hat Display', sans-serif;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    background: #c0c7d4; /*1f458c*/
+}
+.nav-gnrl{
+    background-color: #293956!important; /*1d3e7cff*/
+    margin-bottom: 1em;
+}
+
+.nav-gnrl .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+.fa, .fas {
+    font-size: 4em;
+}
+.cont-btn{
+    background: transparent;
+    margin-top: 0.5em;
+    border-radius: 10px;
+    border: 1px solid aliceblue;
+    padding-top: 0.6em;
+    color: aliceblue;
+}
+
+.img-continentes{
+    width: 50%;
+    /*filter: contrast(0.5); Atenua el color de la imagen*/
+}
+
+#myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }
+
+
+  @media only screen and (min-width: 600px) {
+    body {
+  display: none;  }}
+
+  .cards-religiones{
+    background: white;
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+    border-radius: 0.3em;
+    width: 100%;
+    margin-top: 5.1em;
+    margin-bottom: 1em;
+  }
+
+
+
+  /*Diseño de sidebar*/
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1050;
+    top: 0;
+    left: 0;
+    background-color: #293956;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #293956;
+    color: white;
+    padding: 0.2em 0.5em;
+    border-radius: 0.1em;
+    border: 1px solid white;
+  }
+  
+  .openbtn:hover {
+    background-color: #293956;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    margin-left: 0px !important;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+
+
+  .colora{
+      color: #293956 !important;
+      font-weight: 1000;
+  }
+  .content-cards{
+    text-align: justify;
+    margin: 0 1em;
+
+  }
+
+  .card{
+    margin-bottom: 1em;
+  }
+
+  iframe{
+    width: 100%;
+    height: 100%;
+  }
+
+  a:hover{
+    color: grey !important;
+    text-decoration: none;
+  }
+
+
+
+
+
+.nav-menu{
+  margin-top: 4.2em;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.info-contact{
+  background: #ffffff7d;
+  border-radius: 4px;
+  text-align: center;
+  padding-top: 0.6em;
+  padding-bottom: 0.1em;
+}
+
+#home{
+  margin-bottom: 1em;
+}
+
+.nav-menu .col-4{
+      padding-right: 0px !important; 
+    padding-left: 0px !important;
+}
+
+.nav-tabs .nav-link {
+ border: 0px !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #293956;
+  background-color: #c0c7d4;
+}
+
+.navcc {
+  color: #293956;
+  text-decoration: none;
+  background-color: #b3b9c3;
+  padding-bottom: 0.8em !important;
+    padding-top: 0.8em !important;
+}
